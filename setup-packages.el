@@ -11,6 +11,7 @@
   '(
     f
     init-loader
+    recentf-ext
     helm
     auto-complete
     flycheck
