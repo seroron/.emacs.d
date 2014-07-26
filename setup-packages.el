@@ -13,6 +13,7 @@
     init-loader
     recentf-ext
     helm
+    helm-ls-git
     auto-complete
     flycheck
     js2-mode
