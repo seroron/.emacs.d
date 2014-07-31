@@ -20,4 +20,12 @@
 (setq make-backup-files t)
 (setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
 
+;;;;;;;;;;;;;;;;;
+;; menu-bar
+;;;;;;;;;;;;;;;;;
+(menu-bar-mode -1)
 
+;;;;;;;;;;;;;;;;;
+;; tool-bar
+;;;;;;;;;;;;;;;;;
+(tool-bar-mode -1)
