@@ -21,6 +21,7 @@
     anzu
     magit
     web-mode
+    scss-mode
     git-gutter+
     ))
 
