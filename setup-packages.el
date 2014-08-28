@@ -22,6 +22,7 @@
     magit
     web-mode
     scss-mode
+    yaml-mode
     git-gutter+
     ))
 
