@@ -24,6 +24,7 @@
     scss-mode
     yaml-mode
     git-gutter+
+    haskell-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
