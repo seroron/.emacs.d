@@ -29,3 +29,10 @@
 ;; tool-bar
 ;;;;;;;;;;;;;;;;;
 (tool-bar-mode -1)
+
+;;;;;;;;;;;;;;;;;
+;; cursor
+;;;;;;;;;;;;;;;;;
+(column-number-mode t)
+(line-number-mode t)
+
