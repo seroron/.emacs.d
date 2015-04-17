@@ -25,6 +25,7 @@
     yaml-mode
     git-gutter+
     haskell-mode
+    powershell
     ))
 
 (let ((not-installed (loop for x in installing-package-list
