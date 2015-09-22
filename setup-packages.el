@@ -26,6 +26,7 @@
     git-gutter+
     haskell-mode
     powershell
+    markdown-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
