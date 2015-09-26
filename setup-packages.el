@@ -14,6 +14,7 @@
     recentf-ext
     helm
     helm-ls-git
+    helm-ag
     auto-complete
     flycheck
     js2-mode
