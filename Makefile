@@ -1,13 +1,25 @@
+EMACS_INSTALL_PATH=${HOME}/.emacs.d/emacs-local
+EMACS_PACKAGE_NAME=emacs-24.5
+
+
 .PHONY : all
 all: emacs-package
 
 .PHONY : clean
 clean:
-	rm -fr elpa
+	rm -fr elpa $(EMACS_PACKAGE_NAME)
 
 emacs-package:
 	emacs --script setup-packages.el
 
-flycheck:
-	gem install rubocop ruby-lint
+emacs-local:
+	curl http://ftp.jaist.ac.jp/pub/GNU/emacs/$(EMACS_PACKAGE_NAME).tar.gz | tar xz
+	cd $(EMACS_PACKAGE_NAME) && \
+	  ./configure --prefix=${EMACS_INSTALL_PATH} --without-x && \
+	  make && \
+	  make install
+	rm -fr $(EMACS_PACKAGE_NAME)
+	mkdir -p ~/.bashrc.d	
+	echo "#!/bin/sh" > ~/.bashrc.d/emacs-local.sh
+	echo "export PATH=$(EMACS_INSTALL_PATH)/bin:\$$PATH" >> ~/.bashrc.d/emacs-local.sh
 
