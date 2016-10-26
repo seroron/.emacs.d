@@ -28,6 +28,7 @@
     haskell-mode
     powershell
     markdown-mode
+    go-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
