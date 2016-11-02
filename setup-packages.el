@@ -29,6 +29,10 @@
     powershell
     markdown-mode
     go-mode
+    elixir-mode
+    alchemist
+    ac-alchemist
+    flycheck-elixir
     ))
 
 (let ((not-installed (loop for x in installing-package-list
