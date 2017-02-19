@@ -21,6 +21,12 @@
 (setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
 
 ;;;;;;;;;;;;;;;;;
+;; buffer history
+;;;;;;;;;;;;;;;;;
+(savehist-mode 1)
+(setq savehist-file "~/.emacs.d/history")
+
+;;;;;;;;;;;;;;;;;
 ;; menu-bar
 ;;;;;;;;;;;;;;;;;
 (menu-bar-mode -1)
