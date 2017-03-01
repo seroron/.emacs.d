@@ -15,6 +15,7 @@
     helm
     helm-ls-git
     helm-ag
+    direx
     auto-complete
     flycheck
     js2-mode
