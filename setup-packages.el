@@ -31,6 +31,7 @@
     markdown-mode
     go-mode
     elixir-mode
+    dockerfile-mode
     alchemist
     ac-alchemist
     flycheck-elixir
