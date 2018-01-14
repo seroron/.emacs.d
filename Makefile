@@ -24,3 +24,5 @@ emacs-local:
 	echo "#!/bin/sh" > ~/.bashrc.d/emacs-local.sh
 	echo "export PATH=$(EMACS_INSTALL_PATH)/bin:\$$PATH" >> ~/.bashrc.d/emacs-local.sh
 
+ruby-mode:
+	gem install pry pry-doc

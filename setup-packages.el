@@ -16,12 +16,14 @@
     helm-ls-git
     helm-ag
     direx
-    auto-complete
+    company
     flycheck
     js2-mode
     undo-tree
     anzu
     magit
+    yasnippet
+    helm-c-yasnippet
     web-mode
     scss-mode
     yaml-mode
@@ -35,6 +37,10 @@
     alchemist
     ac-alchemist
     flycheck-elixir
+    robe
+    rbenv
+    irony
+    company-irony
     ))
 
 (let ((not-installed (loop for x in installing-package-list
