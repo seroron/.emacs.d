@@ -32,6 +32,8 @@
     powershell
     markdown-mode
     go-mode
+    go-eldoc
+    company-go
     elixir-mode
     dockerfile-mode
     alchemist
