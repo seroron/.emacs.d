@@ -1,6 +1,6 @@
 
 (setq auto-mode-alist
-      (append '(("\\.h$" . c++-mode))
+      (append '(("\\.h\\'" . c++-mode))
               auto-mode-alist))
 
 (defun my-c-c++-mode-init ()
