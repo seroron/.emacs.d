@@ -47,6 +47,7 @@
     lsp-treemacs
     helm-lsp
     dap-mode
+    typescript-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
