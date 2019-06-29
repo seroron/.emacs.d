@@ -24,5 +24,11 @@ emacs-local:
 	echo "#!/bin/sh" > ~/.bashrc.d/emacs-local.sh
 	echo "export PATH=$(EMACS_INSTALL_PATH)/bin:\$$PATH" >> ~/.bashrc.d/emacs-local.sh
 
-ruby-mode:
-	gem install pry pry-doc
+lsp-mode-js:
+	npm i -g typescript-language-server; npm i -g typescript
+
+lsp-mode-ruby:
+	gem install solargraph
+
+lsp-mode-bash:
+	npm i -g bash-language-server

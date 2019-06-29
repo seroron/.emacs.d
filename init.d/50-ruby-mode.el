@@ -1,7 +1,7 @@
-; rbenv
-(setq rbenv-installation-dir "~/.rbenv")
-(require 'rbenv)
-(global-rbenv-mode)
+;; ; rbenv
+;; (setq rbenv-installation-dir "~/.rbenv")
+;; (require 'rbenv)
+;; (global-rbenv-mode)
 
 (defun ruby-mode-hook-encoding-map ()
   " "
@@ -9,9 +9,3 @@
   )
 (add-hook 'ruby-mode-hook 
           'ruby-mode-hook-encoding-map)
-
-
-(add-hook 'ruby-mode-hook 'robe-mode)
-
-(eval-after-load 'company
-  '(push 'company-robe company-backends))

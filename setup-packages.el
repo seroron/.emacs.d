@@ -39,10 +39,14 @@
     alchemist
     ac-alchemist
     flycheck-elixir
-    robe
-    rbenv
     irony
     company-irony
+    lsp-mode
+    lsp-ui
+    company-lsp
+    lsp-treemacs
+    helm-lsp
+    dap-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
