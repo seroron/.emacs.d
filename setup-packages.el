@@ -20,6 +20,7 @@
     flycheck
     js2-mode
     undo-tree
+    neotree
     anzu
     magit
     yasnippet
@@ -41,13 +42,16 @@
     flycheck-elixir
     irony
     company-irony
-    lsp-mode
+    eglot
     lsp-ui
     company-lsp
     lsp-treemacs
     helm-lsp
     dap-mode
     typescript-mode
+    markdown-preview-mode
+    groovy-mode
+    rust-mode
     ))
 
 (let ((not-installed (loop for x in installing-package-list
