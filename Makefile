@@ -1,5 +1,5 @@
 EMACS_INSTALL_PATH=${HOME}/.emacs.d/emacs-local
-EMACS_PACKAGE_NAME=emacs-26.2
+EMACS_PACKAGE_NAME=emacs-26.3
 
 
 .PHONY : all
