@@ -15,6 +15,18 @@
     helm
     helm-ls-git
     helm-ag
+;;; ivy
+    ivy
+    ivy-rich
+    swiper
+    counsel
+    smex
+
+    counsel-projectile
+    which-key
+    
+    vterm
+    
     direx
     company
     flycheck
@@ -23,8 +35,11 @@
     neotree
     anzu
     magit
+    highlight-indent-guides
+    auto-highlight-symbol
     yasnippet
     helm-c-yasnippet
+    dashboard
     web-mode
     scss-mode
     yaml-mode
@@ -44,7 +59,7 @@
     company-irony
     eglot
     lsp-ui
-    company-lsp
+;    company-lsp
     lsp-treemacs
     helm-lsp
     dap-mode

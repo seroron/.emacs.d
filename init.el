@@ -22,3 +22,10 @@
 (require 'init-loader)
 (init-loader-load "~/.emacs.d/init.d/")
 
+
+;;;;;;;;;;;;;;;;;
+;; custom file separating
+;;;;;;;;;;;;;;;;;
+(setq custom-file "~/.emacs.d/emacs-custom")
+(if (file-exists-p custom-file)
+    (load custom-file))
