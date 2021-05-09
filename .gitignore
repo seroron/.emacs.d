@@ -1,14 +1,8 @@
-/backup
 /auto-save-list
 /elpa
-/.recentf
 /eshell
 /emacs-local
-/history
 /tramp
 /emacs-*.tar.gz
 /emacs-custom
-/smex-items
-/transient
-/recentf
-/projectile-bookmarks.eld
+/var
